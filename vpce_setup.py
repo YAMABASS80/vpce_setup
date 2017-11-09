@@ -1,6 +1,5 @@
 import boto3
 import argparse
-import json
 
 '''
 This script sets up the VPC Private Link(VPC Endpoint) for each AWS services currently supported.
