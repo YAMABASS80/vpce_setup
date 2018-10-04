@@ -9,3 +9,7 @@ sets up the VPC Private Link(VPC Endpoint) for each AWS services currently suppo
    python vpce_setup.py --subnet-ids *Subnet ID1* *Subnet ID2*.... --security-group *Security Group ID*
 
 If you need help, type 'python vpce_setup.py -h'
+
+## This is obsolate!!!
+You can create VPC PrivateLkin via CloudFormation.
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpoint.html
